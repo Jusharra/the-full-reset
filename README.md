@@ -38,7 +38,7 @@ Two different mechanics run on the Performance and Hair pages — see `docs/book
 - **Email** — `hello@resethim.com` throughout. Replace with your real inbox.
 - **`/terms/index.html`** — every `[Your Business Legal Name]`, `[yourdomain.com]`, `[Your State]`, `[Your County/State]`, and the refund policy in Section 4. This page is a template, not legal advice — see the note at the bottom of the page itself, and get it reviewed by a licensed attorney before launch given the business collects payments and refers to health-adjacent services.
 - **Social / DM link** — the Instagram placeholder on the Contact page.
-- **About page** — the bio, story, and photo are placeholders (`[Your Name]`, `[Your Photo]`). This is the highest-priority page to personalize — it's what makes people trust the affiliate links.
+- **About page** — service-focused by design (no founder bio/photo). If you later want a personal trust element back in, that's a separate ask — the current version deliberately keeps the page product-and-value focused.
 - **Domain** — once you have a custom domain in Netlify, update the `og:url`/canonical tags if you add them, and double check the disclosure language still matches your actual affiliate relationships.
 
 ## Compliance notes (read before publishing)
