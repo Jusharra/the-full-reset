@@ -219,6 +219,13 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* ---------- Offer cards ---------- */
 .offers { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; }
 @media (max-width: 800px) { .offers { grid-template-columns: 1fr; } }
+.offers-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 980px) { .offers-3 { grid-template-columns: 1fr; } }
+.offer-tag.voucher { background: var(--maroon); color: var(--ink); }
+/* .offer-card always has a dark background regardless of its parent section, so its headings must stay light even inside .on-light sections */
+.on-light .offer-card h3, .on-light .offer-card h4 { color: var(--ink); }
+.offer-alt-link { display: block; font-size: 12px; color: var(--gold); margin-top: 10px; }
+.offer-alt-link:hover { color: var(--gold-bright); }
 .offer-card {
   border: 1px solid var(--line);
   background: var(--bg-card);
